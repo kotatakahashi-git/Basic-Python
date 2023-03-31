@@ -1,5 +1,4 @@
-a,b,c=(int(x) for x in input().split())
-i = a
+i, b, c=(int(x) for x in input().split())
 count=0
 while i<=b:
     if c%i == 0:
