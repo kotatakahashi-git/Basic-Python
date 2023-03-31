@@ -3,6 +3,6 @@ count=0
 while i<=b:
     if c%i == 0:
         count += 1
-    i =i+1
+    i +=  1
 print(count)   
     
