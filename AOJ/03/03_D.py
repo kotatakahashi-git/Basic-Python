@@ -3,7 +3,7 @@ i = a
 count=0
 while i<=b:
     if c%i == 0:
-        count = count+1
+        count += 1
     i =i+1
 print(count)   
     
