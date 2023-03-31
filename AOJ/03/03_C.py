@@ -1,5 +1,5 @@
 while True:
-    x,y=(int(a) for a in input().split())
+    x,y=map(int input().split())
     if  x == 0 and y == 0: 
       break
     if x <= y :
