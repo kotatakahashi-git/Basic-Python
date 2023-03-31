@@ -4,4 +4,4 @@ while True:
     if x == 0:
         break
     print(f'Case {i}: {x}')
-    i = i+1
+    i += 1
